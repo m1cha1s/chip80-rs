@@ -1,3 +1,11 @@
+mod prelude;
+
+mod memory;
+mod registers;
+mod keyboard;
+mod display;
+mod timers;
+
 #[cfg(test)]
 mod tests {
     #[test]
