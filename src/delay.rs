@@ -1,6 +1,6 @@
 
 
-pub trait Display {
+pub trait Delay {
     // Factory
     fn new() -> Self;
 }

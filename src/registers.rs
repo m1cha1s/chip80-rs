@@ -13,12 +13,12 @@ pub trait Registers {
     fn set_i(&mut self, value: u16);
 
     // Special purpose register interfaces
-    fn get_delay(&mut self) -> u16;
-    fn set_delay(&mut self, value: u16);
+    fn get_delay(&mut self) -> u8;
+    fn set_delay(&mut self, value: u8);
     fn dec_delay(&mut self);
     
-    fn get_sound(&mut self) -> u16;
-    fn set_sound(&mut self, value: u16);
+    fn get_sound(&mut self) -> u8;
+    fn set_sound(&mut self, value: u8);
     fn dec_sound(&mut self);
 
     // Pseudo registers interface

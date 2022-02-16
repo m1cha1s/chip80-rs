@@ -1,10 +1,12 @@
-mod prelude;
+pub mod prelude;
 
-mod memory;
-mod registers;
-mod keyboard;
-mod display;
-mod timers;
+pub mod memory;
+pub mod registers;
+pub mod keyboard;
+pub mod display;
+pub mod sound;
+pub mod delay;
+pub mod cpu;
 
 #[cfg(test)]
 mod tests {
